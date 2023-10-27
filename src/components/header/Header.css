@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 0;
+    background-color: #1B2F64;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .textGame{
+    color: #FFC473;
+    font-size: 70px;
+    text-shadow: #693B21 -2px 4px;
+  }
+
+  .textDiscription{
+    color: white;
+    font-size: 30px;
+    text-shadow: #693B21 -2px 2px;
+  }
+  
