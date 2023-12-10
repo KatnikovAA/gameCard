@@ -8,7 +8,7 @@ export function Switch ({textLabel,value}) {
 
     return (
         <label className="switchDiv" onClick={()=> dispatch(pickSizeCardMap(value))}>
-            <input name="gameMapSize" type="radio" value={value} checked/>
+            <input name="gameMapSize" type="radio" value={value} defaultChecked/>
                 {textLabel}
         </label>
     )
