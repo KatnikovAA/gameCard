@@ -1,0 +1,36 @@
+.Alert{
+    display: flex;
+    justify-content:space-around;
+    border: 1px black solid;
+    flex-direction: column;
+    position: absolute;
+    min-width: 300px;
+    min-height: 200px;
+    background: rgb(232, 231, 231);
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border: 1px solid rgba(0, 0, 0, 1); /* Параметры границы */
+    border-radius: 20px;
+  }
+
+.sizeAlert{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonAlert{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.headerAlert{
+    display: flex;
+    justify-content: center;
+}
+

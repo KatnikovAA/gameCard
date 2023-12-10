@@ -1,0 +1,68 @@
+/* Анимация тупит из-за одинакового количество времени на 180 градусов и на 360
+попробовать разбить на 2 анимации чеерез присваение нового КлассНейма и за тоже время прокурчивать 2 дива */
+
+.card{
+  position: relative;
+  perspective: 2000px;
+}
+
+.openCardDiv , .closeCardDiv{
+  position: absolute;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 85px;
+    height: 150px;
+    border-radius: 15px;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-name: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+  }
+
+  .openCardDiv{
+    font-size: 70px;
+    background-color: #FFAE40
+  }
+
+  .closeCardDiv{
+    background-color: #00AE68;
+    font-size: 55px;
+  }
+    
+    @keyframes openCardFront{
+    0%{ 
+
+     } 
+    100%{ 
+      transform: rotateY(360deg);
+    }
+  }
+  @keyframes openCardBack{
+    0%{    
+  
+     } 
+    100%{ 
+      transform: rotateY(180deg);
+    }
+  }
+  @keyframes closeCardFront{
+    0%{ 
+     } 
+    100%{ 
+      transform: rotateY(-180deg);
+    }
+  }
+  @keyframes closeCardBack{
+    0%{ 
+     } 
+    100%{ 
+      transform: rotateY(-360deg);
+    }
+  }
+
