@@ -1,4 +1,5 @@
 .button {
+<<<<<<< HEAD
 
     color: #1B2F64;
     font-size: 20px;
@@ -6,4 +7,12 @@
     height: 40px;
     width: 60px;
     cursor: pointer;
+=======
+border: black;
+color: #1B2F64;
+font-size: 20px;
+border-radius: 20%;
+height: 40px;
+width: 60px;
+>>>>>>> 175140a9e9be995ed4c8ff7394cb69bb12949e24
 }
